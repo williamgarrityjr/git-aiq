@@ -1,0 +1,23 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    margin: 0 24px;
+
+    > div{
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+
+        button{
+            text-align: left;;
+        }
+    }
+
+    @include when-less-than('small'){
+        flex-direction: column;
+
+        > div{
+            width: 100%;
+        }
+    }
+}

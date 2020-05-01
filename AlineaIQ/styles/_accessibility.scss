@@ -1,0 +1,25 @@
+a:active, a:focus, button:active, button:focus, select:active, select:focus, textarea:active, textarea:focus{
+    box-shadow:0 0 0 2px $orange--300!important;outline:none!important;
+}
+
+input:active,input:focus{
+    box-shadow:0 0 0 1px $orange--300!important;
+    outline:none!important;
+}
+[data-whatintent="mouse"] a:active,[data-whatintent="mouse"] a:focus,[data-whatintent="mouse"]
+button:active,[data-whatintent="mouse"]
+button:focus,[data-whatintent="mouse"]
+input:active,[data-whatintent="mouse"]
+input:focus,[data-whatintent="mouse"]
+select:active,[data-whatintent="mouse"]
+select:focus,[data-whatintent="mouse"]
+textarea:active,[data-whatintent="mouse"]
+textarea:focus,[data-whatintent="touch"] a:active,[data-whatintent="touch"] a:focus,[data-whatintent="touch"]
+button:active,[data-whatintent="touch"]
+button:focus,[data-whatintent="touch"]
+input:active,[data-whatintent="touch"]
+input:focus,[data-whatintent="touch"]
+select:active,[data-whatintent="touch"]
+select:focus,[data-whatintent="touch"]
+textarea:active,[data-whatintent="touch"]
+textarea:focus{box-shadow:none!important}
